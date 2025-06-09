@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CustomPrintHeader
+Bundle-SymbolicName: com.metalsistem.CustomPrintHeaderFooter
+Bundle-Version: 11.0.0.qualifier
+Import-Package: org.osgi.framework;version="1.10.0",
+ org.osgi.service.component;version="[1.5.0,2.0.0]",
+ org.osgi.service.component.annotations;version="[1.5.0,2.0.0]"
+Require-Bundle: org.adempiere.base;bundle-version="11.0.0",
+ org.adempiere.plugin.utils;bundle-version="11.0.0"
+Bundle-Vendor: METALSISTEM
+Automatic-Module-Name: com.metalsistem.CustomPrintHeader
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: org.adempiere.plugin.utils.AdempiereActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Service-Component: OSGI-INF/com.metalsistem.CustomPrintHeaderFooter.CustomPrintHeaderFooter.xml
