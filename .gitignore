@@ -7,3 +7,6 @@ target/
 .classpath
 .settings
 /lib/
+
+# Maven build output
+/target/
